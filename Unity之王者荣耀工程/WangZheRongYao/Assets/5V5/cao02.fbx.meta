@@ -1,0 +1,127 @@
+fileFormatVersion: 2
+guid: 54d5b227df3a50942818eb8ef971148c
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: default001detachobj176
+    100004: default001detachobj290
+    100006: default001detachobj322
+    100008: default001detachobj328
+    100010: default001detachobj329
+    100012: default002detachobj110
+    100014: default002detachobj144
+    100016: default002detachobj152
+    100018: default002detachobj157
+    100020: default002detachobj54
+    100022: polySurface1
+    400000: //RootNode
+    400002: default001detachobj176
+    400004: default001detachobj290
+    400006: default001detachobj322
+    400008: default001detachobj328
+    400010: default001detachobj329
+    400012: default002detachobj110
+    400014: default002detachobj144
+    400016: default002detachobj152
+    400018: default002detachobj157
+    400020: default002detachobj54
+    400022: polySurface1
+    2300000: default001detachobj176
+    2300002: default001detachobj290
+    2300004: default001detachobj322
+    2300006: default001detachobj328
+    2300008: default001detachobj329
+    2300010: default002detachobj110
+    2300012: default002detachobj144
+    2300014: default002detachobj152
+    2300016: default002detachobj157
+    2300018: default002detachobj54
+    2300020: polySurface1
+    3300000: default001detachobj176
+    3300002: default001detachobj290
+    3300004: default001detachobj322
+    3300006: default001detachobj328
+    3300008: default001detachobj329
+    3300010: default002detachobj110
+    3300012: default002detachobj144
+    3300014: default002detachobj152
+    3300016: default002detachobj157
+    3300018: default002detachobj54
+    3300020: polySurface1
+    4300000: default002detachobj157
+    4300002: default002detachobj152
+    4300004: default002detachobj144
+    4300006: default002detachobj110
+    4300008: default002detachobj54
+    4300010: default001detachobj328
+    4300012: default001detachobj322
+    4300014: default001detachobj290
+    4300016: default001detachobj176
+    4300018: default001detachobj329
+    4300020: polySurface1
+    11100000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 1
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

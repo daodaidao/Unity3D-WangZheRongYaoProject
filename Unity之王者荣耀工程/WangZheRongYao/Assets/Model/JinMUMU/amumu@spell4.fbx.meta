@@ -1,0 +1,153 @@
+fileFormatVersion: 2
+guid: 7ed3ce85cc552e844a5f9ccfd249f8d1
+timeCreated: 1425610596
+licenseType: Free
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: BUFFBONE_GLB_CHANNEL_LOC
+    100004: BUFFBONE_GLB_GROUND_LOC
+    100006: BUFFBONE_GLB_WEAPON_1
+    100008: C_BUFFBONE_GLB_CENTER_LOC
+    100010: C_BUFFBONE_GLB_CHEST_LOC
+    100012: C_BUFFBONE_GLB_HEAD_LOC
+    100014: C_BUFFBONE_GLB_LAYOUT_LOC
+    100016: C_BUFFBONE_GLB_OVERHEAD_LOC
+    100018: head
+    100020: L_arm
+    100022: L_BUFFBONE_GLB_FOOT_LOC
+    100024: L_BUFFBONE_GLB_HAND_LOC
+    100026: L_calf
+    100028: L_finger
+    100030: L_foot
+    100032: L_forarm
+    100034: L_hand
+    100036: L_PARENTING_HAND_LOC
+    100038: L_shoulder
+    100040: L_thigh
+    100042: L_toe
+    100044: neck
+    100046: pelvis
+    100048: R_arm
+    100050: R_BUFFBONE_GLB_FOOT_LOC
+    100052: R_BUFFBONE_GLB_HAND_LOC
+    100054: R_calf
+    100056: R_cloth
+    100058: R_cloth_b
+    100060: R_finger
+    100062: R_foot
+    100064: R_forarm
+    100066: R_hand
+    100068: R_PARENTING_HAND_LOC
+    100070: R_shoulder
+    100072: R_thigh
+    100074: R_toe
+    100076: root
+    100078: spine
+    100080: spine_b
+    100082: transformAmumu
+    400000: //RootNode
+    400002: BUFFBONE_GLB_CHANNEL_LOC
+    400004: BUFFBONE_GLB_GROUND_LOC
+    400006: BUFFBONE_GLB_WEAPON_1
+    400008: C_BUFFBONE_GLB_CENTER_LOC
+    400010: C_BUFFBONE_GLB_CHEST_LOC
+    400012: C_BUFFBONE_GLB_HEAD_LOC
+    400014: C_BUFFBONE_GLB_LAYOUT_LOC
+    400016: C_BUFFBONE_GLB_OVERHEAD_LOC
+    400018: head
+    400020: L_arm
+    400022: L_BUFFBONE_GLB_FOOT_LOC
+    400024: L_BUFFBONE_GLB_HAND_LOC
+    400026: L_calf
+    400028: L_finger
+    400030: L_foot
+    400032: L_forarm
+    400034: L_hand
+    400036: L_PARENTING_HAND_LOC
+    400038: L_shoulder
+    400040: L_thigh
+    400042: L_toe
+    400044: neck
+    400046: pelvis
+    400048: R_arm
+    400050: R_BUFFBONE_GLB_FOOT_LOC
+    400052: R_BUFFBONE_GLB_HAND_LOC
+    400054: R_calf
+    400056: R_cloth
+    400058: R_cloth_b
+    400060: R_finger
+    400062: R_foot
+    400064: R_forarm
+    400066: R_hand
+    400068: R_PARENTING_HAND_LOC
+    400070: R_shoulder
+    400072: R_thigh
+    400074: R_toe
+    400076: root
+    400078: spine
+    400080: spine_b
+    400082: transformAmumu
+    4300000: transformAmumu
+    7400000: Take 001
+    9500000: //RootNode
+    13700000: transformAmumu
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
