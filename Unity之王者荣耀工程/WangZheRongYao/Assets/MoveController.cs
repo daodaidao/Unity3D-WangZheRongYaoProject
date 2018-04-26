@@ -1,7 +1,20 @@
 ﻿using UnityEngine;
 using System.Collections;
 
+
 public class MoveController : MonoBehaviour {
+
+
+	private Animator ani;
+
+	void Start()
+	{
+		ani = GetComponent<Animator> ();
+
+
+	}
+
+
 
     void OnEnable()
     {
@@ -24,9 +37,12 @@ public class MoveController : MonoBehaviour {
 
     void OnJoystickMoveEnd(MovingJoystick move)
     {
-        if (move.joystickName == "MoveJoystick")
+		if (move.joystickName == "MoveJoystick")
         {
-            GetComponent<Animation>().CrossFade("idle");
+//            GetComponent<Animation>().CrossFade("idle");
+ 
+			ani.SetInteger ("state", AnimState.IDLE);
+
         }
     }
     void OnJoystickMove(MovingJoystick move)
@@ -47,7 +63,10 @@ public class MoveController : MonoBehaviour {
             //移动玩家的位置（按朝向位置移动）
             transform.Translate(Vector3.forward * Time.deltaTime * 5);
             //播放奔跑动画
-            GetComponent<Animation>().CrossFade("run");
+//            GetComponent<Animation>().CrossFade("run");
+	 
+			ani.SetInteger ("state", AnimState.RUN);
+
         }
     }
 }

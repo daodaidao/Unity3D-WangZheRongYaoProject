@@ -263,6 +263,14 @@ Prefab:
       propertyPath: m_RootOrder
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 9f84917e590492d4482a8b29e19e7e3a, type: 3}
+      propertyPath: m_Name
+      value: player
+      objectReference: {fileID: 0}
+    - target: {fileID: 9500000, guid: 9f84917e590492d4482a8b29e19e7e3a, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: ebe7f0058f2d44f63ba2e35cd41dc21e, type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 9f84917e590492d4482a8b29e19e7e3a, type: 3}
   m_IsPrefabParent: 0
@@ -400,6 +408,21 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 14
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &663405225 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 100000, guid: 9f84917e590492d4482a8b29e19e7e3a, type: 3}
+  m_PrefabInternal: {fileID: 201794402}
+--- !u!114 &663405228
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 663405225}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 93e8e7dfe7317c24ab0f12589d03c618, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &783763201
 GameObject:
   m_ObjectHideFlags: 0
@@ -410,7 +433,7 @@ GameObject:
   - component: {fileID: 783763202}
   - component: {fileID: 783763203}
   m_Layer: 0
-  m_Name: EasyJoys
+  m_Name: MoveJoystick
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -423,7 +446,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 783763201}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 4.069, y: 4.209, z: -2.535}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -1290,7 +1313,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1797615029}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 10, z: -100}
+  m_LocalPosition: {x: 21.7, y: 5.4, z: -24.4}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
