@@ -52,6 +52,7 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\AnimState.cs" />
+     <Compile Include="Assets\CameraFllow.cs" />
      <Compile Include="Assets\EasyTouch\Plugins\_C#-Event-Template\C_EasyButtonTemplate.cs" />
      <Compile Include="Assets\EasyTouch\Plugins\_C#-Event-Template\C_EasyJoystickTemplate.cs" />
      <Compile Include="Assets\EasyTouch\Plugins\_C#-Event-Template\C_EasyTouchTemplate.cs" />
@@ -67,6 +68,7 @@
      <Compile Include="Assets\Joystick.cs" />
      <Compile Include="Assets\MoveController.cs" />
      <Compile Include="Assets\PlayerController.cs" />
+     <Compile Include="Assets\state.cs" />
  <Reference Include="Assembly-UnityScript-firstpass">
  <HintPath>/Users/caihongguang/Desktop/Unity3D-WangZheRongYaoProject/Unity之王者荣耀工程/WangZheRongYao/Library/ScriptAssemblies/Assembly-UnityScript-firstpass.dll</HintPath>
  </Reference>
