@@ -5,12 +5,17 @@ using UnityEngine;
 public class CreatSoldier : MonoBehaviour {
 
 	[SerializeField]
-	private GameObject soldier;
+	private GameObject soldierPrefab;
 	[SerializeField]
 	private Transform starTran;
 
 	[SerializeField]
 	private Transform soldierParent;
+
+	[SerializeField]
+	Transform[] towers;
+
+
 
 	bool isCreatSoldier = true;
 
@@ -24,11 +29,13 @@ public class CreatSoldier : MonoBehaviour {
 	}
 
 
-	void CreatSmartSoldier(){
+	void CreatSmartSoldier(Transform starTRan,Transform[] towers){
 
-		GameObject obj =  Instantiate (soldier, starTran.position, Quaternion.identity)as GameObject ;
+		GameObject obj =  Instantiate (soldierPrefab, starTran.position, Quaternion.identity)as GameObject ;
 		obj.transform.parent = soldierParent;
 
+		SmartSoldier soldier = obj.GetComponent<SmartSoldier> ();
+		soldier.towers = towers;
 		
 	}
 
@@ -40,7 +47,7 @@ public class CreatSoldier : MonoBehaviour {
 		
 			for (int i = 0; i < soldierCount; i++) {
 			
-				CreatSmartSoldier ();
+				CreatSmartSoldier (starTran,towers);
 				yield return new WaitForSeconds (delyTime);
 			
 			}
