@@ -67,6 +67,7 @@
      <Compile Include="Assets\EasyTouch\Plugins\VirtualScreen.cs" />
      <Compile Include="Assets\Joystick.cs" />
      <Compile Include="Assets\MoveController.cs" />
+     <Compile Include="Assets\playerAttack.cs" />
      <Compile Include="Assets\PlayerController.cs" />
      <Compile Include="Assets\state.cs" />
  <Reference Include="Assembly-UnityScript-firstpass">

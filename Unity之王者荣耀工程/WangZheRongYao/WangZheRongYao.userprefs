@@ -1,13 +1,15 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets/MoveController.cs">
     <Files>
-      <File FileName="Assets/MoveController.cs" Line="49" Column="6" />
+      <File FileName="Assets/CameraFllow.cs" Line="35" Column="1" />
+      <File FileName="Assets/MoveController.cs" Line="68" Column="44" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore>
       <Breakpoint file="/Users/caihongguang/Desktop/Unity3D-WangZheRongYaoProject/Unity之王者荣耀工程/WangZheRongYao/Assets/EasyTouch/Plugins/Editor/GUIEasyButtonCallBack.cs" line="29" column="53" />
+      <Breakpoint file="/Users/caihongguang/Desktop/Unity3D-WangZheRongYaoProject/Unity之王者荣耀工程/WangZheRongYao/Assets/CameraFllow.cs" line="32" column="3" />
     </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
