@@ -3,9 +3,11 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class CreatSoldier : MonoBehaviour {
-
+	
 	[SerializeField]
-	private GameObject soldierPrefab;
+//	solderPrefab
+	private GameObject solder;
+
 	[SerializeField]
 	private Transform starTran;
 
@@ -28,17 +30,21 @@ public class CreatSoldier : MonoBehaviour {
 		StartCoroutine (Creat(0,1,5));
 	}
 
-
+	//1.小兵生成位置 2. 目标
 	void CreatSmartSoldier(Transform starTRan,Transform[] towers){
 
-		GameObject obj =  Instantiate (soldierPrefab, starTran.position, Quaternion.identity)as GameObject ;
+		print ("CreatSmartSoldier");
+
+		GameObject obj =  Instantiate (solder, starTran.position, Quaternion.identity)as GameObject ;
 		obj.transform.parent = soldierParent;
 
 		SmartSoldier soldier = obj.GetComponent<SmartSoldier> ();
+
 		soldier.towers = towers;
 		
 	}
 
+	//生成小兵的 时间， 延迟时间，
 	private IEnumerator Creat (float time, float delyTime, float spwanTime){
 
 		yield return new WaitForSeconds (time);
@@ -48,10 +54,12 @@ public class CreatSoldier : MonoBehaviour {
 			for (int i = 0; i < soldierCount; i++) {
 			
 				CreatSmartSoldier (starTran,towers);
+
+
 				yield return new WaitForSeconds (delyTime);
 			
 			}
-
+			//下一个生成时间
 			yield return new WaitForSeconds (spwanTime);
 
 

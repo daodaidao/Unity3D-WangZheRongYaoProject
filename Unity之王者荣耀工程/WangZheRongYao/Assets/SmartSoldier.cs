@@ -4,11 +4,13 @@ using UnityEngine;
 using UnityEngine.AI;
 
 public class SmartSoldier : MonoBehaviour {
-	
-	private NavMeshAgent nav;
 
+	//寻路系统
+	private NavMeshAgent nav;
+	//跑步动画
 	private Animation ani;
 
+	//行走目标
 	public Transform target;
 
 	public Transform []towers;
@@ -16,20 +18,25 @@ public class SmartSoldier : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
+		//获取
 		nav = GetComponent<NavMeshAgent> ();
 
 		ani = GetComponent<Animation> ();
 
+		target = GetTarget ();
 
 	}
 	
 	// Update is called once per frame
 	void Update () {
+		print ("SmartSoldier Update");
+
 		SoldierMove ();
 	}
 
 	void SoldierMove()
 	{
+		
 		if(target == null)
 		{
 			target = GetTarget(); 
@@ -48,7 +55,10 @@ public class SmartSoldier : MonoBehaviour {
 		{
 			if (towers[i] != null)
 			{
+				print ("塔还在");
+
 				return towers[i];
+
 			}
 
 		}
